@@ -1,0 +1,31 @@
+{
+  "Title": "SpaceLib",
+  "Type": "library",
+  "Org": "local",
+  "Ident": "spacelib",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "/resources/",
+  "Resources": null,
+  "MenuResources": null,
+  "HasCode": true,
+  "CodePath": "code",
+  "PackageReferences": [
+    "wiremod/wirelib",
+    "local.base"
+  ],
+  "EditorReferences": null,
+  "Metadata": {
+    "ProjectTemplate": null,
+    "CsProjName": "",
+    "Compiler": {
+      "RootNamespace": "Sdt",
+      "DefineConstants": "SANDBOX;ADDON;DEBUG",
+      "NoWarn": "1701;1702;1591;",
+      "WarningsAsErrors": "",
+      "References": [],
+      "DistinctReferences": []
+    }
+  }
+}
